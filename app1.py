@@ -1,6 +1,6 @@
 """
 ================================================================================
-EXPLORER QUEST: LYON EDITION (Édition Lyon)
+: LYON EDITION (Édition Lyon)
 Lead Python Developer & UI/UX Architect Build
 Stack: Streamlit | Google GenAI (`google-genai`) | SQLite3 | ReportLab | Pillow
 ================================================================================
