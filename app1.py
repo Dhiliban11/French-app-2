@@ -1,6 +1,7 @@
 """
 ================================================================================
-: LYON EDITION (Édition Lyon)
+
+EXPLORER QUEST: LYON EDITION (Édition Lyon)
 Lead Python Developer & UI/UX Architect Build
 Stack: Streamlit | Google GenAI (`google-genai`) | SQLite3 | ReportLab | Pillow
 ================================================================================
@@ -40,12 +41,10 @@ except ImportError:
 # LOGIC: Core file paths and Lyon default GPS coordinates
 DB_PATH = "explorer_lyon.db"
 PHOTO_DIR = "explorer_photos"
-LYON_DEFAULT_LAT = 45.7640
-LYON_DEFAULT_LON = 4.8357
 
 # LOGIC: Scoring and Explorer Tier thresholds
-RIDDLE_POINTS = 50
-QUEST_POINTS = 200
+RIDDLE_POINTS = 25
+QUEST_POINTS = 250
 
 EXPLORER_TIERS = [
     {"name": "Rookie Explorer", "fr": "Explorateur Débutant", "min_pts": 0, "badge": "🧭"},
@@ -223,8 +222,6 @@ LYON_LANDMARKS = [
         "name_fr": "Basilique Notre-Dame de Fourvière",
         "name_en": "Basilica of Notre-Dame de Fourvière",
         "district": "Fourvière (5e)",
-        "lat": 45.7623,
-        "lon": 4.8226,
         "category": "History & Architecture",
         "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Basilique_Notre-Dame_de_Fourvi%C3%A8re_Lyon.jpg/800px-Basilique_Notre-Dame_de_Fourvi%C3%A8re_Lyon.jpg",
         "desc_fr": "Surnommée l'éléphant renversé, cette basilique romano-byzantine domine Lyon depuis la colline qui prie.",
